@@ -16,4 +16,4 @@ def contacts(request):
 
 
 def contacts_page(request):
-    return render(request, 'webapp/contacts.html')
+    return render(request, 'webapp/contacts.html') #2
