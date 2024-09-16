@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'catalog',
+    'catalog',  # Оставляем приложение catalog
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
